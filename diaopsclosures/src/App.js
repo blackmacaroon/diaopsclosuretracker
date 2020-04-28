@@ -1,10 +1,11 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 
-import App from "./App";
+function App() {
+    return (
+        <div>
+            <p>HI HI HII HI OH HI</p>
+        </div>
+    )
+}
 
-ReactDOM.render(
-    <App/>,
-
-    document.getElementById("root")
-)
+export default App;
